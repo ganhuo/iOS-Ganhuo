@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96638E311AEA3033000A90D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96638E301AEA3033000A90D0 /* AppDelegate.swift */; };
+		96638E331AEA3033000A90D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96638E321AEA3033000A90D0 /* ViewController.swift */; };
+		96638E361AEA3033000A90D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96638E341AEA3033000A90D0 /* Main.storyboard */; };
+		96638E381AEA3033000A90D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96638E371AEA3033000A90D0 /* Images.xcassets */; };
+		96638E3B1AEA3033000A90D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96638E391AEA3033000A90D0 /* LaunchScreen.xib */; };
+		96638E471AEA3033000A90D0 /* GanHuoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96638E461AEA3033000A90D0 /* GanHuoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96638E411AEA3033000A90D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96638E231AEA3032000A90D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96638E2A1AEA3033000A90D0;
+			remoteInfo = GanHuo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96638E2B1AEA3033000A90D0 /* GanHuo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GanHuo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96638E2F1AEA3033000A90D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96638E301AEA3033000A90D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96638E321AEA3033000A90D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96638E351AEA3033000A90D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96638E371AEA3033000A90D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		96638E3A1AEA3033000A90D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		96638E401AEA3033000A90D0 /* GanHuoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GanHuoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96638E451AEA3033000A90D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96638E461AEA3033000A90D0 /* GanHuoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GanHuoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96638E281AEA3033000A90D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96638E3D1AEA3033000A90D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96638E221AEA3032000A90D0 = {
+			isa = PBXGroup;
+			children = (
+				96638E2D1AEA3033000A90D0 /* GanHuo */,
+				96638E431AEA3033000A90D0 /* GanHuoTests */,
+				96638E2C1AEA3033000A90D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96638E2C1AEA3033000A90D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96638E2B1AEA3033000A90D0 /* GanHuo.app */,
+				96638E401AEA3033000A90D0 /* GanHuoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96638E2D1AEA3033000A90D0 /* GanHuo */ = {
+			isa = PBXGroup;
+			children = (
+				96638E301AEA3033000A90D0 /* AppDelegate.swift */,
+				96638E321AEA3033000A90D0 /* ViewController.swift */,
+				96638E341AEA3033000A90D0 /* Main.storyboard */,
+				96638E371AEA3033000A90D0 /* Images.xcassets */,
+				96638E391AEA3033000A90D0 /* LaunchScreen.xib */,
+				96638E2E1AEA3033000A90D0 /* Supporting Files */,
+			);
+			path = GanHuo;
+			sourceTree = "<group>";
+		};
+		96638E2E1AEA3033000A90D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96638E2F1AEA3033000A90D0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96638E431AEA3033000A90D0 /* GanHuoTests */ = {
+			isa = PBXGroup;
+			children = (
+				96638E461AEA3033000A90D0 /* GanHuoTests.swift */,
+				96638E441AEA3033000A90D0 /* Supporting Files */,
+			);
+			path = GanHuoTests;
+			sourceTree = "<group>";
+		};
+		96638E441AEA3033000A90D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96638E451AEA3033000A90D0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96638E2A1AEA3033000A90D0 /* GanHuo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96638E4A1AEA3033000A90D0 /* Build configuration list for PBXNativeTarget "GanHuo" */;
+			buildPhases = (
+				96638E271AEA3033000A90D0 /* Sources */,
+				96638E281AEA3033000A90D0 /* Frameworks */,
+				96638E291AEA3033000A90D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GanHuo;
+			productName = GanHuo;
+			productReference = 96638E2B1AEA3033000A90D0 /* GanHuo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96638E3F1AEA3033000A90D0 /* GanHuoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96638E4D1AEA3033000A90D0 /* Build configuration list for PBXNativeTarget "GanHuoTests" */;
+			buildPhases = (
+				96638E3C1AEA3033000A90D0 /* Sources */,
+				96638E3D1AEA3033000A90D0 /* Frameworks */,
+				96638E3E1AEA3033000A90D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96638E421AEA3033000A90D0 /* PBXTargetDependency */,
+			);
+			name = GanHuoTests;
+			productName = GanHuoTests;
+			productReference = 96638E401AEA3033000A90D0 /* GanHuoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96638E231AEA3032000A90D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = why;
+				TargetAttributes = {
+					96638E2A1AEA3033000A90D0 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					96638E3F1AEA3033000A90D0 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 96638E2A1AEA3033000A90D0;
+					};
+				};
+			};
+			buildConfigurationList = 96638E261AEA3032000A90D0 /* Build configuration list for PBXProject "GanHuo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96638E221AEA3032000A90D0;
+			productRefGroup = 96638E2C1AEA3033000A90D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96638E2A1AEA3033000A90D0 /* GanHuo */,
+				96638E3F1AEA3033000A90D0 /* GanHuoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96638E291AEA3033000A90D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96638E361AEA3033000A90D0 /* Main.storyboard in Resources */,
+				96638E3B1AEA3033000A90D0 /* LaunchScreen.xib in Resources */,
+				96638E381AEA3033000A90D0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96638E3E1AEA3033000A90D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96638E271AEA3033000A90D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96638E331AEA3033000A90D0 /* ViewController.swift in Sources */,
+				96638E311AEA3033000A90D0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96638E3C1AEA3033000A90D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96638E471AEA3033000A90D0 /* GanHuoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96638E421AEA3033000A90D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96638E2A1AEA3033000A90D0 /* GanHuo */;
+			targetProxy = 96638E411AEA3033000A90D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96638E341AEA3033000A90D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96638E351AEA3033000A90D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96638E391AEA3033000A90D0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96638E3A1AEA3033000A90D0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96638E481AEA3033000A90D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96638E491AEA3033000A90D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96638E4B1AEA3033000A90D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GanHuo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96638E4C1AEA3033000A90D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GanHuo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96638E4E1AEA3033000A90D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GanHuoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GanHuo.app/GanHuo";
+			};
+			name = Debug;
+		};
+		96638E4F1AEA3033000A90D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GanHuoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GanHuo.app/GanHuo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96638E261AEA3032000A90D0 /* Build configuration list for PBXProject "GanHuo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96638E481AEA3033000A90D0 /* Debug */,
+				96638E491AEA3033000A90D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96638E4A1AEA3033000A90D0 /* Build configuration list for PBXNativeTarget "GanHuo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96638E4B1AEA3033000A90D0 /* Debug */,
+				96638E4C1AEA3033000A90D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96638E4D1AEA3033000A90D0 /* Build configuration list for PBXNativeTarget "GanHuoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96638E4E1AEA3033000A90D0 /* Debug */,
+				96638E4F1AEA3033000A90D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96638E231AEA3032000A90D0 /* Project object */;
+}
